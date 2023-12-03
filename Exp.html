@@ -1,30 +1,130 @@
-<html> 
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-<meta charset="UTF8">
+    <meta charset="UTF-8">
+    <title>CV de Mortadha Mezhoud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
 
-<title> HTML </title>
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .experience {
+            margin-top: 20px;
+        }
+
+        .experience img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+
+        .project-section {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .project-section h2 {
+            color: white;
+        }
+
+        .project-section p {
+            color: white;
+        }
+    </style>
 </head>
 <body>
-<h1>            Mortadha Mezhoud <h1>
-<h2>        Licence en électronique, électrotechnique
- et automatique spécialité système embarqué<h2>
-<header> </header>
-<img src="mortadha.jpg"width="" height="200">
-<table border="1">
 
-<hr>
+    <header>
+        <h1>Mortadha Mezhoud</h1>
+        <h2>Licence en électronique, électrotechnique et automatique spécialité système embarqué</h2>
+    </header>
 
-<a href="#footer"> Mes Experiences</a> 
-<h1>Projet Fin d’étude PFE :<h1>
-<img src="pfe.jpg"width="200" height="200">
+    <img src="mortadha.jpg" alt="Photo de Mortadha Mezhoud" width="200" height="200">
 
+    <hr>
 
-  <p> Société 3DWAVE : Février 2023 à Juin 2023
-Développement d’un système IOT : <p> <br>
-<img src="3d.jpg"width="200" height="200">
-<p>stérilisateur 
-ultraviolet-c commandé à distance grâce à une 
-application mobile utilisant les technologies ESP32, 
-Firebase et Flutter.<p> 
-<img src="s.jpg"width="200" height="200"><br>
-<hr>
+    <section class="experience project-section">
+        <a href="#footer">Mes Projets et Expériences</a>
+
+        <h2>Projet Fin d’étude PFE :</h2>
+        <p>Développement d’un système IOT : stérilisateur ultraviolet-c commandé à distance grâce à une application mobile utilisant les technologies ESP32, Firebase et Flutter.</p>
+
+        <h2>Projet 2 :</h2>
+        <p>Conception et développement d'un système d’alarme basé sur une carte Arduino, en intégrant des capteurs ultrasons et sonores.</p>
+
+        <h2>Projet Fin d’année PFA :</h2>
+        <p>Voiture télécommandée avec une caméra de recul basé sur une carte Arduino des capteurs ultrasons et une carte Raspberry.</p>
+    </section>
+
+    <hr id="footer">
+
+    <!-- Contenu du pied de page ici -->
+
+</body>
+</html>

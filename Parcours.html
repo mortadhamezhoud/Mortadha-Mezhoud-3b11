@@ -1,29 +1,152 @@
-<html> 
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-<meta charset="UTF8">
+    <meta charset="UTF-8">
+    <title>CV de Mortadha Mezhoud</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-<title> HTML </title>
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #007BFF;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border: 5px solid #007BFF;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 0px #ddd;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .experience {
+            margin-top: 20px;
+        }
+
+        .experience img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #ddd;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin: 20px 0;
+        }
+
+        .project-section {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 0px #333;
+        }
+
+        .project-section h2 {
+            color: white;
+        }
+
+        .project-section p {
+            color: white;
+            line-height: 1.6;
+        }
+
+        .project-section a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 8px 15px;
+            background-color: #0056b3;
+            transition: background-color 0.3s;
+        }
+
+        .project-section a:hover {
+            background-color: #007BFF;
+        }
+    </style>
 </head>
 <body>
-<h1>            Mortadha Mezhoud <h1>
-<h2>        Licence en électronique, électrotechnique
- et automatique spécialité système embarqué<h2>
-<header> </header>
-<img src="mortadha.jpg"width="" height="200">
-<table border="1">
 
-<hr>
+    <header>
+        <h1>Mortadha Mezhoud</h1>
+        <h2>Licence en électronique, électrotechnique et automatique spécialité système embarqué</h2>
+    </header>
 
-<a href="#footer"> Mon parcours </a> 
-<p>Diplôme Licence électronique, 
-électrotechnique et automatique spécialité
-système embarqué en 2023<p><br>
-<img src="images.jpg"width="500" height="200">
+    <img src="mortadha.jpg" alt="Photo de Mortadha Mezhoud" width="200" height="200">
 
-<p>j'ai etudié Institut Supérieur de l’informatique et 
-mathématiques de Monastir <p><br>
-<img src="ismm.jpg"width="500" height="200">
- <p> j'ai etudié au lycée hannibal ariana et j'ai pris mon Baccalauréat en 2019: Sciences techniques <p><br>
- <img src="ha.jpg"width="500" height="200">
- <hr>
+    <hr>
 
+    <section class="experience project-section">
+        <h2>Projets et Expériences</h2>
+
+        <p><strong>Projet Fin d’étude PFE :</strong><br>
+        Développement d’un système IOT : stérilisateur ultraviolet-c commandé à distance grâce à une application mobile utilisant les technologies ESP32, Firebase et Flutter.</p>
+
+        <p><strong>Projet 2 :</strong><br>
+        Conception et développement d'un système d’alarme basé sur une carte Arduino, en intégrant des capteurs ultrasons et sonores.</p>
+
+        <p><strong>Projet Fin d’année PFA :</strong><br>
+        Voiture télécommandée avec une caméra de recul basé sur une carte Arduino des capteurs ultrasons et une carte Raspberry.</p>
+
+        <a href="#footer">En savoir plus sur mon parcours</a>
+    </section>
+
+    <hr id="footer">
+
+    <!-- Contenu du pied de page ici -->
+
+</body>
+</html>
